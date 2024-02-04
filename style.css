@@ -1,0 +1,271 @@
+body {
+    box-sizing: border-box;
+}
+.hero,
+.hero * {
+  box-sizing: border-box;
+}
+.hero {
+  background: #838ed9;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 783.62px;
+  position: relative;
+  overflow: hidden;
+}
+.hero-background {
+  background: #f0e5d7;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.vicky-y-fede {
+  padding: 31px 26px 31px 26px;
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  right: 39px;
+  left: 39.9971923828125px;
+  bottom: 23.98%;
+  top: 23.87%;
+  height: 52.15%;
+  z-index: 1;
+}
+.vicky {
+  flex-shrink: 0;
+  width: 198.7px;
+  height: 141.96px;
+  position: relative;
+  overflow: visible;
+}
+
+.fede {
+    flex-shrink: 0;
+    width: 198.7px;
+    height: 120.31px;
+    position: relative;
+    overflow: visible;
+  }
+
+  .flores-3 {
+    width: 244.27px;
+    height: 514.11px;
+    position: absolute;
+    top: -240px;
+    left: -20px;
+    transform-origin: 0 0;
+    transform: rotate(8deg) scale(1, 1);
+    object-fit: cover;
+  }
+  .flores-4 {
+    width: 248.27px;
+    height: 509.76px;
+    position: absolute;
+    right: -250px;
+    bottom: -250px;
+    transform-origin: 0 0;
+    transform: rotate(30deg) scale(1, 1);
+    object-fit: cover;
+  }
+
+  .faltan {
+    background: #655989;
+    padding: 37px 0px 37px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 156px;
+    position: relative;
+  }
+  .faltan2 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Montserrat-SemiBold", sans-serif;
+    font-size: 35.12773895263672px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+  }
+  ._92-d-as {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 25.863798141479492px;
+    font-weight: 300;
+    position: relative;
+  }
+  ._92-d-as-span {
+    color: #ffffff;
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 25.863798141479492px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  ._92-d-as-span2 {
+    color: #ffffff;
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 25.863798141479492px;
+    font-weight: 300;
+  }
+
+.card {
+    margin-top: 4rem;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    border-radius: 0;
+    }
+
+.card-img-top {
+    margin-bottom: 2rem;
+}
+
+.card-title {
+  color: #c45c75;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 1rem;
+
+}
+
+.card-text {
+    color: #453539;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 18px;
+    justify-content: flex-start;
+    align-self: stretch;
+  font-weight: 400;
+  position: relative;
+
+}
+.btn-primary {
+  background: #c45c75;
+  border-radius: 33px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 53px;
+  position: relative;
+  margin-top: 2rem;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  border: 0;
+
+}
+.btn-primary:hover {
+    background-color: #655989;
+}
+
+.card-body {
+  width: 80%;
+}
+
+.text-reencuadre {
+  width: 64%;
+}
+
+.text-banco {
+  width: 100%;
+}
+
+#nuestroCasamiento {
+    width: 80%;
+    margin: auto;
+    padding: 4rem 0;
+}
+
+#calendar {
+    background: #f0e5d7;
+    padding: 2.75rem 0;
+    margin: auto;
+    width: 100%;
+
+}
+
+#btn-agendalo {
+  margin: 2rem auto 0 auto;
+  padding: auto;
+}
+
+#regalo {
+    background: #934558;
+    padding: 2.75rem;
+
+}
+
+#card-text-regalo {
+    color: white;
+    padding: 2rem 0;
+}
+
+#card-button-regalo {
+    background-color: white;
+    color: hsl(345, 36%, 42%);
+    margin: auto;  
+    text-align: center;
+    width: 100%; 
+}
+
+#card-button-regalo:hover {
+    background-color: #69303E;
+    color: white;
+}
+
+.card-img-overlay {
+    background-color: #EDCCD4;
+    margin: 2rem auto;
+    height: fit-content;
+    width: 80%;
+
+}
+
+#boton-sugerirCancion {
+  position: absolute;
+  bottom: 5%;
+}
+
+#footer {
+  background-color: #F0E5D7;
+  margin: auto;
+  padding: 2.75rem 0;
+}
+
+#footer-text {
+  margin-top: 1rem;
+}
+
+.boton-modal {
+  background-color: #c45c75;
+  margin: auto;
+}
+
+.boton-modal:hover {
+  background-color: #655989;
+}
+
+#timer {  
+  color: white;
+}
