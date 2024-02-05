@@ -65,6 +65,13 @@ body {
     transform: rotate(8deg) scale(1, 1);
     object-fit: cover;
   }
+
+  #nuestroCasamiento img {
+    padding-bottom: 1rem;
+  }
+  #calendar img {
+    padding-bottom: 1rem;
+  }
   .flores-4 {
     width: 248.27px;
     height: 509.76px;
@@ -121,7 +128,6 @@ body {
   }
 
 .card {
-    margin-top: 4rem;
     border: 0;
     display: flex;
     align-items: center;
@@ -129,10 +135,6 @@ body {
     text-align: center;
     border-radius: 0;
     }
-
-.card-img-top {
-    margin-bottom: 2rem;
-}
 
 .card-title {
   color: #c45c75;
@@ -268,4 +270,34 @@ body {
 
 #timer {  
   color: white;
+}
+
+
+#card-imagen {
+  width: 100%;
+  height: auto;
+}
+
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  #boton-sugerirCancion {
+    position: absolute;
+    bottom: 80%;
+    
+  }
+  
+  @supports (object-fit: cover) {
+    .card.text-bg-dark img {
+      height: 40%;
+      width: 100%; /* Ensure the width is set to 100% to cover the container */
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+
 }
